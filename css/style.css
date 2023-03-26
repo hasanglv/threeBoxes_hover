@@ -1,0 +1,35 @@
+.demo{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 50px;
+    
+}
+
+.circle{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: greenyellow;
+}
+
+.b{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: green;
+    opacity: 0;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.b:hover{
+    opacity: 0.4;
+}
